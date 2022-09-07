@@ -78,7 +78,7 @@ transition: color 100ms ease-out;
     flex: 0.5;
     border-right: 1px solid var(--twitter-background-color);
     min-width: fit-content;
-    overflow-y:scroll;
+    overflow-y: scroll;
 }
 .feed-header {
     position: sticky;
@@ -168,7 +168,7 @@ transition: color 100ms ease-out;
 }
 
 .post-badge {
-    font-size: 8px |important;
+    font-size: 16px;
     color: var(--twitter-color);
     margin-right: 5px;
 }
@@ -233,3 +233,33 @@ transition: color 100ms ease-out;
     font-size: 18px;
     font-weight: 800;
 }
+
+.widgets .post-body img {
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.footer {
+    margin: 25px;
+}
+.footer-section {
+    margin-bottom: 12px;
+}
+.footer-section span {
+    font-size: 12px;
+    font-weight: 900;
+    margin-right: 6px;
+    color: grey;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+@media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
